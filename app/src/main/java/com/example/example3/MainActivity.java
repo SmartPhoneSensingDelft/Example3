@@ -161,8 +161,8 @@ public class MainActivity extends Activity implements OnClickListener {
                 .getLayoutParams();
 
         // When the image falls within the background image, it is visible. Otherwise, it is invisible.
-        if ((mParams.topMargin < background.getTop() || mParams.topMargin > background.getBottom() - 2 * image.getHeight())
-                || (mParams.leftMargin < background.getLeft() || mParams.leftMargin > background.getRight() - 2 * image.getWidth())) {
+        if ((mParams.topMargin < background.getTop() || mParams.topMargin > background.getBottom() - 1.5 * image.getHeight())
+                || (mParams.leftMargin < background.getLeft() || mParams.leftMargin > background.getRight() - 1.5 * image.getWidth())) {
             image.setVisibility(View.INVISIBLE);
         } else {
             image.setVisibility(View.VISIBLE);

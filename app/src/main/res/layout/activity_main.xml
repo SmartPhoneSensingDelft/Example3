@@ -12,9 +12,9 @@
         android:id="@+id/imageView2"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:src="@android:drawable/alert_light_frame" />
+        android:layout_centerHorizontal="true"
+        android:background="#88000000" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -63,7 +63,9 @@
         android:id="@+id/textView1"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="46dp"
         android:text="" />
 </RelativeLayout>
